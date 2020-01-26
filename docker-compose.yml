@@ -1,0 +1,7 @@
+version: '3.7'
+services:
+  apidate:
+   build: ./
+   command: python ./app.py
+   ports:
+   - 5000:5000
